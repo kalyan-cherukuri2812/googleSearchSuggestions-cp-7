@@ -1,0 +1,45 @@
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.img-google {
+  width: 250px;
+  margin: 30px;
+  margin-top: 230px;
+}
+.search-card {
+  display: flex;
+  padding: 10px;
+}
+.img-search {
+  width: 20px;
+  margin-right: 12px;
+}
+.input {
+  border: none;
+  font-size: 16px;
+  font-family: roboto;
+  width: 100%;
+  outline: none;
+  color: #64748b;
+  font-weight: 500;
+}
+.card-sub {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 350px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-google {
+    width: 350px;
+  }
+  .card-sub {
+    width: 560px;
+  }
+}
